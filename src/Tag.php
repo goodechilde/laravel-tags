@@ -5,6 +5,7 @@ namespace Spatie\Tags;
 use ArrayAccess;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection as DbCollection;
+use Illuminate\Database\Eloquent\Concerns\HasUlids;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
@@ -18,6 +19,7 @@ class Tag extends Model implements Sortable
     use HasTranslations;
     use HasSlug;
     use HasFactory;
+    use HasUlids;
 
     public array $translatable = ['name', 'slug'];
 
