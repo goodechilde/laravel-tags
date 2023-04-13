@@ -1,17 +1,23 @@
 {
-    "name": "spatie/laravel-tags",
-    "description": "Add tags and taggable behaviour to your Laravel app",
+    "name": "goodechilde/laravel-tags",
+    "description": "Add tags and taggable behaviour to your Laravel app with ULIDs (fork of Spatie Laravel-tags)",
     "keywords": [
         "spatie",
         "laravel-tags"
     ],
-    "homepage": "https://github.com/spatie/laravel-tags",
+    "homepage": "https://github.com/goodechilde/laravel-tags",
     "license": "MIT",
     "authors": [
         {
             "name": "Freek Van der Herten",
             "email": "freek@spatie.be",
             "homepage": "https://spatie.be",
+            "role": "Developer"
+        },
+        {
+            "name": "Sean Shoffstall",
+            "email": "sean@shoffstall.com",
+            "homepage": "",
             "role": "Developer"
         }
     ],
@@ -30,13 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Tags\\": "src"
+            "Goodechilde\\Tags\\": "src"
         }
     },
 
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Tags\\Test\\": "tests"
+            "Goodechilde\\Tags\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -51,7 +57,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Tags\\TagsServiceProvider"
+                "Goodechilde\\Tags\\TagsServiceProvider"
             ]
         }
     },
