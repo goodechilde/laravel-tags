@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Tags;
+namespace Goodechilde\Tags;
 
 use Illuminate\Database\Eloquent\Model;
 
